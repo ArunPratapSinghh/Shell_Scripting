@@ -16,6 +16,18 @@ uname -r
 echo "Display all ,local IP on host"
 hostname -I
 
+echo "Display uptime"
+uptime
+
+echo "show date"
+date
+
+echo "show calender"
+cal
+
+
+
+
 
 
 
