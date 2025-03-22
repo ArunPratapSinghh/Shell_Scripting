@@ -1,2 +1,2 @@
-# Linux_Basic
+# Shell_Scripting
 Basic of Linux 
