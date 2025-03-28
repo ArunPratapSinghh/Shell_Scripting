@@ -14,3 +14,6 @@ du -ah
 
 echo "Display total disk usage off the current directory"
 du -sh
+
+echo "partition disk"
+fdisk -l
