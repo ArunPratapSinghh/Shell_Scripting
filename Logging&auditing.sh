@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#echo
 echo "Display messages in kernel ring buffer"
 dmesg
 
