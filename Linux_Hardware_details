@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Display messages in kernel ring buffer
+## Display messages in kernel ring buffer
 dmesg
 
-# Display CPU information
+# #Display CPU information
 cat /proc/cpuinfo
 
 # Display memory information
