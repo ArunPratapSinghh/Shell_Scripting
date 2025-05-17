@@ -6,7 +6,7 @@ java -version
 echo " Display Hostname "
 hostname
 
-echo "Display Linux system information"
+echo ""Display Linux system information""
 uname -a
 
 echo "Display kernel release information"
