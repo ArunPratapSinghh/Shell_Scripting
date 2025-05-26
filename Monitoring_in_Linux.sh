@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Display and manage the top processes
+### Display and manage the top processes
 top
 
 # Interactive process viewer (top alternative)
