@@ -1,0 +1,23 @@
+In Linux shell scripting (especially Bash), comparison operators differ based on whether you're comparing strings or numbers.
+
+✅ 1. String Comparison Operators
+Operator	Description	Example
+
+| Operator | Description                      | Example                                 |
+| -------- | -------------------------------- | --------------------------------------- |
+| `=`      | Equal                            | `[ "$a" = "$b" ]`                       |
+| `!=`     | Not equal                        | `[ "$a" != "$b" ]`                      |
+| `<`      | Less than (lexicographically)    | `[ "$a" \< "$b" ]` *(note: escape `<`)* |
+| `>`      | Greater than (lexicographically) | `[ "$a" \> "$b" ]` *(note: escape `>`)* |
+| `-z`     | String is empty                  | `[ -z "$a" ]`                           |
+| `-n`     | String is not empty              | `[ -n "$a" ]`                           |
+
+✅ 2. Numeric Comparison Operators
+| Operator | Description        | Example         |
+| -------- | ------------------ | --------------- |
+| `-eq`    | Equal              | `[ $a -eq $b ]` |
+| `-ne`    | Not equal          | `[ $a -ne $b ]` |
+| `-lt`    | Less than          | `[ $a -lt $b ]` |
+| `-le`    | Less than or equal | `[ $a -le $b ]` |
+| `-gt`    | Greater than       | `[ $a -gt $b ]` |
+| `-ge`    | Greater or equal   | `[ $a -ge $b ]` |
