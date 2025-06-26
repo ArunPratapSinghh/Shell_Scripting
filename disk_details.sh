@@ -1,4 +1,4 @@
-
+##########Disk Details Shell Script#########
 #!/bin/bash
 
 echo "________________disk usage details________________"
