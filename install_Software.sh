@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# List of IPs or Hostnames of the Linux machines
+# ###List of IPs or Hostnames of the Linux machines
 MACHINES=("192.168.1.10" "192.168.1.11" "192.168.1.12")
 
 # Loop over each machine
